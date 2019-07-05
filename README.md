@@ -1,6 +1,5 @@
 # Tatsu
-------------
-A basic flexible theme built on top of basis
+A flexible theme built on top of basis
 
 The purpose of this theme is to create a simple and flexible 
 theme in the contrib space (based on Basis) in ways that make it easier for 
@@ -8,6 +7,11 @@ users to modify an out of the box theme through the UI.
 
 We think that there is demand for this kind of theme in the contrib space 
 and welcome both feature and design suggestions.
+
+Current changes:
+* Small changes to hero blocks to make them fit gether nicely.
+* Removed the background color from behind the site name.
+* Adding some useful css classes that can be added to blocks through UI
 
 Installation
 ------------
@@ -20,6 +24,14 @@ Issues
 
 Bugs and Feature requests should be reported in the Issue Queue:
 https://github.com/backdrop-contrib/tatsu/issues
+
+Special CSS Classes
+-------------------
+
+* hero-large           (default - height: 600px)
+* hero-medium          (default - height: 400px)
+* hero-small           (default - height: 200px)
+* hero-extra-small     (default - height: 100px)
 
 Current Maintainers
 -------------------
