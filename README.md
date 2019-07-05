@@ -13,6 +13,8 @@ Current changes:
 * Removed the background color from behind the site name.
 * Adding some useful css classes that can be added to blocks through UI
 
+We found the name Tatsu on a list of good names for Dragons and later learned that it is also the name of a roller coaster in California, USA.  
+
 Installation
 ------------
 
@@ -45,6 +47,8 @@ Credits
 - Thanks to Wes Ruvalcaba (https://github.com/wesruv) for 
   all the work he did on Basis along with anyone else who 
   helped with Basis.
+  
+- Work on Tatsu is support by Triplo LLC (https://www.triplo.co)
 
 License
 -------
