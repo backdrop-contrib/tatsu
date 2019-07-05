@@ -1,0 +1,23 @@
+.l-top .block-hero {
+    margin-top: 0;
+}
+
+.l-header {
+    margin-bottom: 0;
+}
+
+.hero-large {
+    height: 600px;
+}
+
+.hero-medium {
+    height: 400px;
+}
+
+.hero-small {
+    height: 200px;
+}
+
+.hero-extra-small {
+    height: 100px;
+}
