@@ -13,6 +13,8 @@ Current changes:
 * Removed the background color from behind the site name.
 * Adding some useful css classes that can be added to blocks through UI
 
+We found the name Tatsu on a list of good names for Dragons and later learned that it is also the name of a roller coaster in California, USA.  
+
 Installation
 ------------
 
