@@ -47,6 +47,8 @@ Credits
 - Thanks to Wes Ruvalcaba (https://github.com/wesruv) for 
   all the work he did on Basis along with anyone else who 
   helped with Basis.
+  
+- Work on Tatsu is support by Triplo LLC (https://www.triplo.co)
 
 License
 -------
