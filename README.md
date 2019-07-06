@@ -33,6 +33,10 @@ https://github.com/backdrop-contrib/tatsu/issues
 * hero-small           (default - height: 200px)
 * hero-extra-small     (default - height: 100px)
 
+### Recommended Layouts
+
+* Boxton Hero (front page)
+
 ## Maintainers
 
 - Tim Erickson (https://github.com/stpaultim).
