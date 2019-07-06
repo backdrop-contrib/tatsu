@@ -1,6 +1,6 @@
 type = theme
-name = Tri-Basis
-description = Triplo fork of Basis Theme
+name = Tatsu
+description = A flexible theme built on top of basis
 backdrop = 1.x
 
 ; Add theme CSS files
@@ -26,7 +26,9 @@ stylesheets[all][] = css/component/comment.css
 stylesheets[all][] = css/component/caption.css
 stylesheets[all][] = css/skin.css
 
-stylesheets[all][] = css/custom/overrides.css
+stylesheets[all][] = css/custom/tatsu-classes.css
+stylesheets[all][] = css/custom/tatsu-header.css
+stylesheets[all][] = css/custom/tatsu-hero.css
 
 stylesheets[print][] = css/print.css
 

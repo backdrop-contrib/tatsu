@@ -159,15 +159,15 @@
   /* Specific selector to avoid contextual links */
   .l-header .menu a,
   .header-menu a {
-    padding: .25rem 1.25rem;
+
   }
 }
 
 @media (min-width: 48em) {
   .header-menu a {
     /* Attempt at lining up baseline of site name and header menu */
-    padding-top: 1.9375rem;
-    padding-bottom: 1.0625rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     line-height: 1.25rem;
   }
 }
@@ -175,7 +175,7 @@
 @media (min-width: 62em) {
   .header-menu a {
     /* Attempt at lining up baseline of site name and header menu */
-    padding-top: .75rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
     line-height: .5rem;
   }
