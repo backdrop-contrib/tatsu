@@ -10,17 +10,17 @@ and welcome both feature and design suggestions.
 
 We found the name Tatsu on a list of good names for Dragons and later learned that it is also the name of a roller coaster in California, USA.  
 
-## Installation
+## INSTALLATION
 
 - Install this theme using the official Backdrop CMS instructions at
   https://backdropcms.org/guide/themes
 
-## Issues
+## ISSUES
 
 Bugs and Feature requests should be reported in the Issue Queue:
 https://github.com/backdrop-contrib/tatsu/issues
 
-## Changes / Features
+## CHANGES / FEATURES
 
 * Small changes to hero blocks to make them fit gether nicely.
 * Removed the background color from behind the site name.
@@ -33,12 +33,12 @@ https://github.com/backdrop-contrib/tatsu/issues
 * hero-small           (default - height: 200px)
 * hero-extra-small     (default - height: 100px)
 
-## Maintainers
+## MAINTAINERS
 
 - Tim Erickson (https://github.com/stpaultim).
 - Seeking co-maintainers
 
-## Credits
+## CREDITS
 
 - Thanks to Wes Ruvalcaba (https://github.com/wesruv) for 
   all the work he did on Basis along with anyone else who 
@@ -46,7 +46,7 @@ https://github.com/backdrop-contrib/tatsu/issues
   
 - Work on Tatsu is support by Triplo LLC (https://www.triplo.co)
 
-## License
+## LICENSE
 
 This project is GPL v2 software. See the LICENSE.txt file in this directory for
 complete text.
