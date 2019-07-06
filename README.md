@@ -8,6 +8,9 @@ users to modify an out of the box theme through the UI.
 We think that there is demand for this kind of theme in the contrib space 
 and welcome both feature and design suggestions.
 
+Features:
+* Color module support
+
 We found the name Tatsu on a list of good names for Dragons and later learned that it is also the name of a roller coaster in California, USA.  
 
 ## Installation
