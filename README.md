@@ -21,10 +21,12 @@ learned that it is also the name of a roller coaster in California, USA.
   
 ### Recommended (as reflected in screenshot)
 
-- Move /themes/tatsu/tatsu_hero 
-  to   /layouts/tatsu_hero
-  If you want the benefits of multiple hero regions with color support
 - Go to /admin/appearance/list and set Tatsu to default theme
+
+To get benefits of color module support for multiple hero regions
+enable tatsu_hero layout
+- Move from: /themes/tatsu/tatsu_hero 
+- Move to:   /layouts/tatsu_hero
   
 Go to /admin/structure/layouts/manage/home  
 - Remove "Primary Navigation" block from Header region
@@ -34,9 +36,6 @@ Go to /admin/structure/layouts/manage/home
 Other tips
 - To center content in hero regions add "container" class to region
   
-  
-
-
 ## ISSUES
 
 Bugs and Feature requests should be reported in the Issue Queue:
