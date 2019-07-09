@@ -18,7 +18,24 @@ learned that it is also the name of a roller coaster in California, USA.
 
 - Install this theme using the official Backdrop CMS instructions at
   https://backdropcms.org/guide/themes
+  
+### Recommended (as reflected in screenshot)
 
+- Go to /admin/appearance/list and set Tatsu to default theme
+
+To get benefits of color module support for multiple hero regions
+enable tatsu_hero layout
+- Move from: /themes/tatsu/tatsu_hero 
+- Move to:   /layouts/tatsu_hero
+  
+Go to /admin/structure/layouts/manage/home  
+- Remove "Primary Navigation" block from Header region
+- Set "Header" block to use "Primary navigation" menu
+- Move "Welcome" block to first Hero region
+
+Other tips
+- To center content in hero regions add "container" class to region
+  
 ## ISSUES
 
 Bugs and Feature requests should be reported in the Issue Queue:
@@ -45,7 +62,8 @@ https://github.com/backdrop-contrib/tatsu/issues
 
 ### Recommended Layouts (included in theme)
 
-* Tatsu Hero (front page)
+- Tatsu Hero (front page)
+  Provided as part of theme, but must be moved to layouts directory
 
 ## MAINTAINERS
 
