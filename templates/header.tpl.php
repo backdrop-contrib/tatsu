@@ -8,7 +8,7 @@
  * - $base_path: The base URL path of the Backdrop installation. At the very
  *   least, this will always default to /.
  * - $directory: The directory the template is located in, e.g. modules/system
- *   or themes/basis/templates.
+ *   or themes/tatsu/templates.
  * - $is_front: TRUE if the current page is the front page.
  * - $logged_in: TRUE if the user is registered and signed in.
  * - $front_page: The URL of the front page. Use this instead of $base_path when

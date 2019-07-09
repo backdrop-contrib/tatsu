@@ -1,3 +1,11 @@
+/* Special classes for Tatsu theme to be changed by color module */
+
+.tatsu-header-color {
+  background: #20252e;
+}
+
+/* END: Special classes for Tatsu theme to be changed by color module */
+
 /**
  * @file
  * Colors and appearance styles.
@@ -520,7 +528,7 @@ button.form-submit,
   text-transform: uppercase;
   color: #333333;
   letter-spacing: 0.025em;
-  line-height: 2.875;
+  line-height: 1.9;
   background: #d5d5d5;
 }
 
@@ -1217,3 +1225,9 @@ div.error:before {
   /* background-image: -webkit-linear-gradient(transparent, transparent), url(../../../misc/message-error.svg); */
   /* background-image: linear-gradient(transparent, transparent), url(../../../misc/message-error.svg); */
 }
+
+/* Color classes for UI */
+
+
+
+

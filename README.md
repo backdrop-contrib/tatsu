@@ -1,5 +1,8 @@
 # Tatsu
-A flexible theme built on top of basis
+A flexible theme using Basis as the foundation (we forked Basis).
+
+NOTE: This is a release early and often scenario. It's still a work 
+in progress, but we want to release this now to start getting feedback.
 
 The purpose of this theme is to create a simple and flexible 
 theme in the contrib space (based on Basis) in ways that make it easier for 
@@ -8,7 +11,8 @@ users to modify an out of the box theme through the UI.
 We think that there is demand for this kind of theme in the contrib space 
 and welcome both feature and design suggestions.
 
-We found the name Tatsu on a list of good names for Dragons and later learned that it is also the name of a roller coaster in California, USA.  
+We found the name Tatsu on a list of good names for Dragons and later 
+learned that it is also the name of a roller coaster in California, USA.  
 
 ## INSTALLATION
 
@@ -28,10 +32,20 @@ https://github.com/backdrop-contrib/tatsu/issues
 
 ### Special CSS Classes
 
-* hero-large           (default - height: 600px)
-* hero-medium          (default - height: 400px)
-* hero-small           (default - height: 200px)
-* hero-extra-small     (default - height: 100px)
+- hero-large         {height: 600px;}
+- hero-medium        {height: 400px;}
+- hero-small         {height: 200px;}
+- hero-extra-small   {height: 100px;}
+- content-narrow     {padding-left: 30%; padding-right: 30%;}
+- content-medium     {padding-left: 20%; padding-right: 20%;}
+- content-wide       {padding-left: 10%;padding-right: 10%;}
+- content-center     {text-align: center;}
+
+(We are open to better naming conventions or recommendations for libraries to use.)
+
+### Recommended Layouts (included in theme)
+
+* Tatsu Hero (front page)
 
 ## MAINTAINERS
 
