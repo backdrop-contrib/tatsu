@@ -33,7 +33,7 @@ function tatsu_preprocess_page(&$variables) {
  * @see maintenance-page.tpl.php
  */
 function tatsu_preprocess_maintenance_page(&$variables) {
-  $css_path = backdrop_get_path('theme', 'basis') . '/css/component/maintenance.css';
+  $css_path = backdrop_get_path('theme', 'tatsu') . '/css/component/maintenance.css';
   backdrop_add_css($css_path);
 }
 
