@@ -1,8 +1,5 @@
 # Tatsu
-A flexible theme using Basis as the foundation (we forked Basis).
-
-NOTE: This is a release early and often scenario. It's still a work 
-in progress, but we want to release this now to start getting feedback.
+A flexible sub theme of BASIS (theme provided by core).
 
 The purpose of this theme is to create a simple and flexible 
 theme in the contrib space (based on Basis) in ways that make it easier for 
@@ -10,6 +7,9 @@ users to modify an out of the box theme through the UI.
 
 We think that there is demand for this kind of theme in the contrib space 
 and welcome both feature and design suggestions.
+
+NOTE: We are still early in development and will try to keep things as stabile
+as possible, however be prepared for changes. 
 
 We found the name Tatsu on a list of good names for Dragons and later 
 learned that it is also the name of a roller coaster in California, USA.  
