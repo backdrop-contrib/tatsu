@@ -43,9 +43,9 @@ https://github.com/backdrop-contrib/tatsu/issues
 
 (We are open to better naming conventions or recommendations for libraries to use.)
 
-### Recommended Layouts
+### Recommended Layouts (included in theme)
 
-* Boxton Hero (front page)
+* Tatsu Hero (front page)
 
 ## Maintainers
 
