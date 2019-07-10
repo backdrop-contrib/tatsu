@@ -1,15 +1,13 @@
 # Tatsu
-A flexible sub theme of BASIS (theme provided by core).
-
-The purpose of this theme is to create a simple and flexible 
-theme in the contrib space (based on Basis) in ways that make it easier for 
-users to modify an out of the box theme through the UI. 
+A flexible sub theme of BASIS that allows a site editor or manager to make
+maximum color/visual customizations through the user interface. 
 
 We think that there is demand for this kind of theme in the contrib space 
-and welcome both feature and design suggestions.
+and welcome both feature and design suggestions. Let's make this a community
+project. 
 
 NOTE: We are still early in development and will try to keep things as stabile
-as possible, however be prepared for changes. 
+as possible, however be prepared for significant changes. 
 
 We found the name Tatsu on a list of good names for Dragons and later 
 learned that it is also the name of a roller coaster in California, USA.  
@@ -19,7 +17,7 @@ learned that it is also the name of a roller coaster in California, USA.
 - Install this theme using the official Backdrop CMS instructions at
   https://backdropcms.org/guide/themes
   
-### Recommended (as reflected in screenshot)
+### Recommended (to acheive results in screen shot)
 
 - Go to /admin/appearance/list and set Tatsu to default theme
 
@@ -41,7 +39,7 @@ Other tips
 Bugs and Feature requests should be reported in the Issue Queue:
 https://github.com/backdrop-contrib/tatsu/issues
 
-## CHANGES / FEATURES
+## CHANGES (from Basis)
 
 * Small changes to hero blocks to make them fit gether nicely.
 * Removed the background color from behind the site name.
