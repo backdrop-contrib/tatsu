@@ -1,0 +1,61 @@
+; Backdrop CMS .info files allow themers to easily specify some of the static
+; properties of your theme. Properties such as its name, stylesheets,
+; javascripts, and block regions.
+
+; The name, description and screenshot used for this theme on the Appearance
+; page at admin/appearance.
+
+screenshot  = screenshot.png
+name        = Tatsu Sub-theme Starter Kit
+description = Read the included README.txt on how to create a theme with Tatsu.
+
+; This theme is compatible with Backdrop CMS core. And it is a sub-theme of Tatsu which is also a sub-theme of Basis.
+
+backdrop    = 1.x
+base theme  = Tatsu
+
+
+; This section controls the CSS files for your theme. There are 3 different
+; things you can do with a "stylesheets" line:
+; - Add a new stylesheet for your theme.
+; - Override a module's stylesheet. If the stylesheet you are adding uses the
+;   same filename as a stylesheet from a Drupal core or contrib module, your CSS
+;   file will be used instead of the module's file.
+; - Remove a module's stylesheet. If you specify the name of a Drupal core or
+;   contrib module's stylesheets, Drupal will remove that stylesheet if you do
+;   NOT include a file with that name with your theme.
+;
+; stylesheets[MEDIA][] = FILE
+;
+; The "FILE" is the name of the stylesheet to add/override/remove.
+; The "MEDIA" in the first set of brackets is a media type or a media query.
+; Typical CSS media types include "all", "screen", "print", and "handheld". A
+; typical media query is "screen and (max-width: 320px)".
+;
+; CSS2.1 media types: http://www.w3.org/TR/CSS21/media.html#media-types
+; CSS3 media queries: http://www.w3.org/TR/css3-mediaqueries/
+
+; First we remove any Drupal styling that Zen provides as components.
+stylesheets[all][] = system.base.css
+stylesheets[all][] = system.menus.css
+stylesheets[all][] = system.messages.css
+stylesheets[all][] = system.theme.css
+stylesheets[all][] = comment.css
+stylesheets[all][] = node.css
+
+; Then we add our own stylesheet.
+stylesheets[all][] = css/styles.css
+
+; If you wish to use conditional stylesheets, you should install the
+; conditional stylesheets module: https://drupal.org/project/conditional_styles
+;
+;stylesheets-conditional[lte IE 8][all][] = css/ie8.css
+;stylesheets-conditional[(gte IE 9)|(gt IEMobile 7)|(!IE)][] = css/styles.css
+
+
+
+; Optionally add some JavaScripts to your theme.
+
+;scripts[] = js/script.js
+
+
