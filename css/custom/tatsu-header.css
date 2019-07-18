@@ -9,6 +9,13 @@
     align-items: center;
 }
 
+.header-logo-wrapper img,
+.header-logo-wrapper {
+    max-width: none;
+    width: auto;
+    max-height: 70px;
+}
+
 .block-system-header .block-content .header-menu {
     justify-self: end;
 }

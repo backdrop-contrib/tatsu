@@ -23,6 +23,10 @@
     display: block;
 }
 
+.hero-layouts .container.container-fluid.row{
+    display: flex;
+}
+
 .l-wrapper .block {
     padding-top: 40px;
     padding-bottom: 40px;
