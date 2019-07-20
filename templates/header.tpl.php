@@ -45,7 +45,14 @@
 <?php endif; ?>
 
 <?php if ($menu): ?>
-    <nav class="header-menu">
-      <?php print $menu; ?>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse header-menu" id="navbarTogglerDemo01">
+          <?php print $menu; ?>
+        </div>
     </nav>
 <?php endif; ?>
+
+

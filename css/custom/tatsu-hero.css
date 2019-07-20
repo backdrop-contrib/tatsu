@@ -32,12 +32,24 @@
     padding-bottom: 40px;
 }
 
-
-
 .block-hero-image {
     background-position: center center;
 }
 
 .views-row {
     margin-bottom: 3rem;
+}
+
+.header-menu ul.links {
+    position: absolute;
+    right: 0px;
+}
+
+@media (max-width: 990px) {
+    .hero-layouts .container.container-fluid.row {
+        display: block;
+    }
+    .header-menu ul.links {
+        position: relative;
+    }
 }
