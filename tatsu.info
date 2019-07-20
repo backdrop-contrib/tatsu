@@ -5,6 +5,9 @@ backdrop = 1.x
 base theme = Basis
 screenshot = screenshot.png
 
+; Add theme Bootstrap CSS files
+stylesheets[all][] = css/bootstrap/bootstrap.min.css
+
 ; Add theme CSS files
 stylesheets[all][] = css/base.css
 stylesheets[all][] = css/layout.css
@@ -43,6 +46,7 @@ stylesheets[all][] = system.theme.css
 stylesheets[all][] = menu-dropdown.theme.css
 
 scripts[] = js/script.js
+scripts[] = js/bootstrap.bundle.min.js
 
 ; We need at least one setting for the theme settings page to appear in the
 ; menu. Color module provides our defaults, so we just register a dummy setting.
