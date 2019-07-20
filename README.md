@@ -6,6 +6,8 @@ We think that there is demand for this kind of theme in the contrib space
 and welcome both feature and design suggestions. Let's make this a community
 project. 
 
+Tatsu currently includes Bootstrap css and js files. 
+
 NOTE: We are still early in development and will try to keep things as stabile
 as possible, however be prepared for significant changes. 
 
