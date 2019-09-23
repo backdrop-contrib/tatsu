@@ -1,16 +1,17 @@
 .l-wrapper .block.block-hero {
     margin-top: 0;
     margin-bottom: 0;
+    padding-top: 20px;
 }
 
 .l-header {
     margin-bottom: 0;
 }
 
-.row {
-    margin-right: 0;
-    margin-left: 0;
-}
+/*.row {*/
+    /*margin-right: 0;*/
+    /*margin-left: 0;*/
+/*}*/
 
 .row .l-content {
     padding-right: 0;
@@ -44,6 +45,11 @@
     position: absolute;
     right: 0px;
 }
+
+div.block-layout-custom-block[style] {
+    padding-top: 10px;
+}
+
 
 @media (max-width: 990px) {
     .hero-layouts .container.container-fluid.row {
