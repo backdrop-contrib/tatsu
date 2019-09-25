@@ -1,3 +1,7 @@
+.block-system-header {
+    padding-top: 15px;
+}
+
 .block-system-header .block-content {
     display: grid;
     grid-template-columns: 40% 60%;
