@@ -49,7 +49,9 @@ https://github.com/backdrop-contrib/tatsu/issues
 
 ### Special CSS Classes 
 
-We included these classes early on as a short cut to acheive results that can now be better acheived through use of flexible layout templates and the recently released Configurable Block Styles module. 
+We included these classes early on as a short cut to acheive results 
+that can now be better acheived through use of flexible layout templates 
+and the recently released [Configurable Block Style](https://backdropcms.org/project/configurable_block_style) module. 
 
 - hero-large         {height: 600px;}
 - hero-medium        {height: 400px;}
@@ -62,10 +64,11 @@ We included these classes early on as a short cut to acheive results that can no
 
 (We are open to better naming conventions or recommendations for libraries to use.)
 
-### Recommended Layouts (included in theme)
+### Recommended Layouts
 
-- Tatsu Hero (front page)
-  Provided as part of theme, but must be moved to layouts directory
+- Eary version of this theme included a custom layout template. We have removed that 
+  from recent versions and recommend using flexible layout templates introduced to
+  Backdrop CMS in version 1.14.
 
 ## MAINTAINERS
 
