@@ -2,7 +2,7 @@ type = theme
 name = Tatsu
 description = A flexible theme built on top of basis
 backdrop = 1.x
-base theme = Basis
+base theme = basis
 screenshot = screenshot.png
 
 ; Add theme Bootstrap CSS files
@@ -34,6 +34,7 @@ stylesheets[all][] = css/skin.css
 stylesheets[all][] = css/custom/tatsu-classes.css
 stylesheets[all][] = css/custom/tatsu-header.css
 stylesheets[all][] = css/custom/tatsu-hero.css
+stylesheets[all][] = css/custom/tatsu-base.css
 
 stylesheets[print][] = css/print.css
 
