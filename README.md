@@ -23,10 +23,8 @@ learned that it is also the name of a roller coaster in California, USA.
 
 - Go to /admin/appearance/list and set Tatsu to default theme
 
-To get benefits of color module support for multiple hero regions
-enable tatsu_hero layout
-- Move from: /themes/tatsu/tatsu_hero 
-- Move to:   /layouts/tatsu_hero
+- Experiment with the power of a flexible layout template
+  admin/structure/layouts/settings/flexible-template/add
   
 Go to /admin/structure/layouts/manage/home  
 - Remove "Primary Navigation" block from Header region
@@ -34,7 +32,8 @@ Go to /admin/structure/layouts/manage/home
 - Move "Welcome" block to first Hero region
 
 Other tips
-- To center content in hero regions add "container" class to region
+- [Configurable Block Style](https://backdropcms.org/project/configurable_block_style) for custom 
+  block styling through the user interface.
   
 ## ISSUES
 
