@@ -47,7 +47,9 @@ https://github.com/backdrop-contrib/tatsu/issues
 * Removed the background color from behind the site name.
 * Adding some useful css classes that can be added to blocks through UI
 
-### Special CSS Classes
+### Special CSS Classes 
+
+We included these classes early on as a short cut to acheive results that can now be better acheived through use of flexible layout templates and the recently released Configurable Block Styles module. 
 
 - hero-large         {height: 600px;}
 - hero-medium        {height: 400px;}
