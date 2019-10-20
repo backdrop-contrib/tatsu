@@ -8,8 +8,8 @@ project.
 
 Tatsu currently includes Bootstrap css and js files. 
 
-NOTE: We are still early in development and will try to keep things as stabile
-as possible, however be prepared for significant changes. 
+NOTE: We just created a 1.x-2.x branch for new development. If 1.x-1.x is helpful
+as is, we'll try to keep it stabile - although, it is still pretty rough.
 
 We found the name Tatsu on a list of good names for Dragons and later 
 learned that it is also the name of a roller coaster in California, USA.  
@@ -64,6 +64,11 @@ https://github.com/backdrop-contrib/tatsu/issues
 
 - Tatsu Hero (front page)
   Provided as part of theme, but must be moved to layouts directory
+  
+## Configuration Recipes
+
+We are also creating a library of configuration recipes that should work well with this 
+theme. https://github.com/backdrop-contrib/config_recipes
 
 ## MAINTAINERS
 
