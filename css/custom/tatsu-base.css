@@ -16,20 +16,6 @@ body a {
 	padding-left: 0;
 }
 
-/*.l-flexible-row.row .block {
-    padding-top: 30px;
-    padding-bottom: 20px;
-}*/
-
-/*.layout-flexible-content .l-flexible-row.row .l-col {*/
-	/*display: flex;*/
-	/*flex-direction: column;*/
-/*}*/
-
-/*.layout-flexible-content .l-flexible-row.row .block {*/
-	/*flex-grow: 1;*/
-/*}*/
-
 .layout-flexible-content .l-flexible-row.row .block.extra-padding {
 	padding: 70px 40px 20px;
 }
@@ -57,4 +43,3 @@ body a {
 h2.block-title {
 	margin-bottom: 2.5rem;
 }
-
