@@ -1,5 +1,5 @@
 .block-system-header {
-    padding-top: 15px;
+    min-height: 75px;
 }
 
 .block-system-header .block-content {
@@ -14,6 +14,20 @@
     max-width: none;
     width: auto;
     max-height: 70px;
+}
+
+.block-system-header .navbar {
+    margin-bottom: 0px;
+}
+
+.header-site-name-wrapper {
+    align-self: center;
+    min-height: 75px;
+    display: grid;
+}
+
+.header-logo-wrapper {
+    margin: 15px 0;
 }
 
 .block-system-header .block-content .header-menu {
@@ -36,6 +50,7 @@
     font-size: 1.5rem;
     line-height: 1.75rem;
     text-align: left;
+    align-self: center;
 }
 
 @media (max-width: 990px) {

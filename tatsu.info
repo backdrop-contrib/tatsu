@@ -2,7 +2,7 @@ type = theme
 name = Tatsu
 description = A flexible theme built on top of basis
 backdrop = 1.x
-base theme = Basis
+base theme = basis
 screenshot = screenshot.png
 
 ; Add theme Bootstrap CSS files
@@ -33,7 +33,11 @@ stylesheets[all][] = css/skin.css
 
 stylesheets[all][] = css/custom/tatsu-classes.css
 stylesheets[all][] = css/custom/tatsu-header.css
+stylesheets[all][] = css/custom/tatsu-footer.css
 stylesheets[all][] = css/custom/tatsu-hero.css
+stylesheets[all][] = css/custom/tatsu-base.css
+stylesheets[all][] = css/custom/tatsu-views.css
+stylesheets[all][] = css/custom/tatsu-recipes.css
 
 stylesheets[print][] = css/print.css
 
@@ -51,4 +55,38 @@ scripts[] = js/bootstrap.bundle.min.js
 ; We need at least one setting for the theme settings page to appear in the
 ; menu. Color module provides our defaults, so we just register a dummy setting.
 settings[color] = true
+
+; Configuration specifically for Utility CSS module. Classes added to this list
+; will be available as autocomplete in the block UI where users are allowed to add classes.
+utility_css[font][] = 'color-inverse'
+utility_css[font][] = 'font-size-xxxxlarge'
+utility_css[font][] = 'font-size-xxxlarge'
+utility_css[font][] = 'font-size-xxlarge'
+utility_css[font][] = 'font-size-xlarge'
+utility_css[font][] = 'font-size-large'
+utility_css[font][] = 'font-size-medium'
+utility_css[font][] = 'font-size-normal'
+utility_css[font][] = 'font-size-small'
+utility_css[font][] = 'font-size-xsmall'
+utility_css[font][] = 'font-weight-bold'
+utility_css[font][] = 'font-weight-normal'
+utility_css[font][] = 'font-weight-normal'
+utility_css[font][] = 'font-style-italic'
+utility_css[font][] = 'font-style-normal'
+
+; Sets height of hero block. (TODO: Should change this to simply height).
+; Should work on any block.
+utility_css[hero][] = 'hero-large'
+utility_css[hero][] = 'hero-medium'
+utility_css[hero][] = 'hero-small'
+utility_css[hero][] = 'hero-extra-small'
+
+; Width CSS Classes
+utility_css[width][] = 'content-narrow'
+utility_css[width][] = 'content-medium'
+utility_css[width][] = 'content-wide'
+utility_css[width][] = 'content-align'
+
+
+
 
