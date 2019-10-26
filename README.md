@@ -35,6 +35,12 @@ Other tips
 - [Configurable Block Style](https://backdropcms.org/project/configurable_block_style) for custom 
   block styling through the user interface.
   
+## VERSION 1.2 CHANGES
+
+- Removed color module support for special hero blocks which are
+  no longer needed.
+- Adding support for config-recipes
+  
 ## ISSUES
 
 Bugs and Feature requests should be reported in the Issue Queue:
