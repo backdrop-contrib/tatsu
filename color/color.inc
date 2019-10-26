@@ -14,12 +14,6 @@ $info = array(
     'borders' => t('Borders'),
     'formfocusborder' => t('Form element borders when selected'),
 
-    'heroone' => t('Hero 1'),
-    'herotwo' => t('Hero 2'),
-    'herothree' => t('Hero 3'),
-    'herofour' => t('Hero 4'),
-    'herotext' => t('Hero Text'),
-
     'primarytabs' => t('Primary Tabs Background'),
     'primarytabstext' => t('Primary Tabs Text'),
     'buttons' => t('Buttons and Breadcrumb'),
@@ -45,12 +39,6 @@ $info = array(
         'borders' => '#bbbbbb',
         'formfocusborder' => '#43afe4',
 
-        'heroone' => '#ffffaa',
-        'herotwo' => '#2a2aaa',
-        'herothree' => '#0080aa',
-        'herofour' => '#2427aa',
-        'herotext' => '#010101',
-
         'primarytabs' => '#586172',
         'primarytabstext' => '#010000',
         'buttons' => '#dee2ea',
@@ -74,12 +62,6 @@ $info = array(
         'link' => '#00809c',
         'borders' => '#24272c',
         'formfocusborder' => '#ffffff',
-
-        'heroone' => '#ffffaa',
-        'herotwo' => '#2a2aaa',
-        'herothree' => '#0080aa',
-        'herofour' => '#2427aa',
-        'herotext' => '#010101',
 
         'primarytabs' => '#888889',
         'primarytabstext' => '#d0d0d0',
@@ -105,12 +87,6 @@ $info = array(
         'borders' => '#2c2c28',
         'formfocusborder' => '#edede7',
 
-        'heroone' => '#ffffaa',
-        'herotwo' => '#2a2aaa',
-        'herothree' => '#0080aa',
-        'herofour' => '#2427aa',
-        'herotext' => '#010101',
-
         'primarytabs' => '#2b2b2b',
         'primarytabstext' => '#301313',
         'buttons' => '#c9d9e3',
@@ -135,12 +111,6 @@ $info = array(
         'borders' => '#4c5036',
         'formfocusborder' => '#f3f4e9',
 
-        'heroone' => '#ffffff',
-        'herotwo' => '#2a2a2a',
-        'herothree' => '#00809c',
-        'herofour' => '#24272c',
-        'herotext' => '#010101',
-
         'primarytabs' => '#eda766',
         'primarytabstext' => '#e0e4cc',
         'buttons' => '#4c5038',
@@ -164,12 +134,6 @@ $info = array(
         'link' => '#c63d0f',
         'borders' => '#dec0b4',
         'formfocusborder' => '#ffffff',
-
-        'heroone' => '#ffffff',
-        'herotwo' => '#2a2a2a',
-        'herothree' => '#00809c',
-        'herofour' => '#24272c',
-        'herotext' => '#010101',
 
         'primarytabs' => '#2b2b2b',
         'primarytabstext' => '#3b3738',
