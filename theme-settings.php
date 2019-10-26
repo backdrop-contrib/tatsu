@@ -40,22 +40,6 @@ if (module_exists('color')) {
     $form['general'][$field] = color_get_color_element('tatsu', $field, $form);
   }
 
-  $form['hero_block'] = array(
-    '#type' => 'fieldset',
-    '#title' => t('Hero Blocks'),
-    '#collapsible' => TRUE,
-  );
-  $fields = array(
-    'heroone',
-    'herotwo',
-    'herothree',
-    'herofour',
-    'herotext',
-  );
-  foreach ($fields as $field) {
-    $form['hero_block'][$field] = color_get_color_element('tatsu', $field, $form);
-  }
-
   $form['primary_tabs'] = array(
     '#type' => 'fieldset',
     '#title' => t('Tabs and Breadcrumb'),
