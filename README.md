@@ -39,7 +39,10 @@ Other tips
 
 - Removed color module support for special hero blocks which are
   no longer needed.
-- Adding support for config-recipes
+- Adding support for Config Recipes
+  https://github.com/backdrop-contrib/config_recipes
+- Adding support for Utility CSS module
+  https://backdropcms.org/project/utlility_css
   
 ## ISSUES
 
