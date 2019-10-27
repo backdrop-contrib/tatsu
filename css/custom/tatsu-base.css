@@ -16,8 +16,13 @@ body a {
 	padding-left: 0;
 }
 
-.layout-flexible-content .l-flexible-row.row .block.extra-padding {
-	padding: 70px 40px 20px;
+.block:first-of-type {
+	padding-top: 50px;
+}
+
+footer .block:first-of-type,
+header .block:first-of-type {
+	padding-top: 0px;
 }
 
 /*
