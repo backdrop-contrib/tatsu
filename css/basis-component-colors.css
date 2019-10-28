@@ -1,0 +1,334 @@
+/**
+ * @file
+ * Style rules from Basis with colors that may get
+ * overridden by color module
+ */
+
+/*  components/admin-tabs.css  */
+
+ul.primary li a,
+ul.primary li a:visited,
+ul.primary li a:hover,
+ul.primary li.active a,
+.expand-dropdown-tabs-control,
+.responsive-tabs-mobile .expand-dropdown-tabs-control:before,
+.responsive-tabs-mobile .expand-dropdown-tabs-label {
+  border-right: 0.125rem solid #586172; /* LTR */
+  transition:
+          background-color 0.5s ease 0s,
+          color 0.5s ease 0s;
+  will-change: background-color, color;
+}
+
+ul.secondary li a {
+  border: 2px solid #e3e2e2;
+  transition:
+          background-color 0.6s ease,
+          color 0.6s ease;
+}
+
+.expand-dropdown-tabs ul.responsive-tabs-dropdown li a,
+.expand-dropdown-tabs ul.responsive-tabs-dropdown li a:hover {
+  border-top: 2px solid #ffffff;
+}
+
+.responsive-tabs-after .expand-dropdown-tabs-control {
+  border-left: 2px solid #bcc2cc;
+}
+
+.responsive-tabs-mobile.expand-dropdown-tabs .expand-dropdown-tabs-label,
+.responsive-tabs-mobile.expand-dropdown-tabs:hover .expand-dropdown-tabs-label {
+  background: #ffffff;
+}
+
+.responsive-tabs-mobile ul.primary li {
+  border-bottom: 2px solid #ffffff;
+}
+
+/*  components/backdrop-form.css  */
+
+.form-required {
+  color: #ff0000;
+}
+
+.form-item .description,
+.password-strength,
+.password-match {
+  border-left: 0.25em solid #bbbbbb;
+}
+
+.field-suffix .machine-name-value {
+  border: 0.0625rem solid #dee2ea;
+}
+
+input.form-autocomplete,
+input.form-text,
+input.form-tel,
+input.form-email,
+input.form-url,
+input.form-color,
+input.form-number,
+input.form-search,
+input.form-file,
+textarea.form-textarea {
+  border: 0.125rem solid #d0d0d0;
+  font-weight: 400;
+  -webkit-transition: border-color 0.25s ease-in-out;
+  transition: border-color 0.25s ease-in-out;
+  will-change: border-color;
+}
+
+select.form-select {
+  border: 0.125rem solid #d0d0d0;
+  will-change: border-color;
+}
+
+#autocomplete {
+  border: 0.125rem solid #d0d0d0;
+  border-top: 0;
+}
+
+#autocomplete li.selected {
+  background: #008be2;
+  color: #ffffff;
+}
+
+ul.action-links a:before,
+ul.action-links a:after {
+  background: #0074bd;
+}
+
+/*  components/breadcrumbs.css  */
+
+.breadcrumb li:after {
+  border: 0.0625rem solid #20252e;
+}
+
+/*  components/caption.css  */
+
+.caption > figcaption {
+  border-left: 0.25rem solid #bbbbbb;
+}
+[dir="rtl"] .caption > figcaption {
+  border-right: 0.25rem solid #bbbbbb;
+}
+
+/*  components/comment.css  */
+
+.comments .indented:before {
+  border-left-color: #dee2ea;
+  border-bottom-color: #dee2ea;
+}
+
+.comments .indented:after {
+  border-top-color: #dee2ea;
+  border-right-color: #dee2ea;
+}
+
+.comment-header:before {
+  border-bottom-color: #dee2ea;
+  border-left-color: #dee2ea;
+  background: #ffffff;
+}
+
+.comment .comment-text {
+  border: 0.125em solid #dee2ea;
+}
+
+.comment-footer {
+  background: #dee2ea;
+}
+
+/*  components/dialog.css  */
+
+.ui-dialog {
+  border: 0.125em solid #20252e;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/*  components/fieldset.css  */
+
+.js fieldset.collapsible .fieldset-legend a:before {
+  border-top-color: #000000;
+}
+
+/*  components/footer.css  */
+
+/*  components/header.css  */
+
+.l-header .menu-toggle-button-text {
+  color: #bcbbbb;
+}
+
+/*  components/hero.css  */
+
+.block-hero-no-image {
+  background: #0074bd url(../../images/texture.png) repeat center center;
+  background-blend-mode: luminosity;
+}
+
+.no-background-blend-mode .block-hero-no-image:before {
+  background: #009dff;
+}
+
+/*  maintenance/.css  */
+
+.maintenance-page {
+  background: #bbb;
+}
+.maintenance-page .l-container {
+  background: #fff;
+}
+
+/*  components/menu-dropdown.css  */
+
+.js .menu-dropdown li,
+.js .menu-dropdown a.has-submenu.highlighted {
+  border-bottom: 1px solid #bbbbbb;
+}
+
+.menu-dropdown a span.sub-arrow {
+  border: 1px solid #bbbbbb;
+}
+
+/*  components/menu-toggle.css  */
+
+.menu-toggle-button-icon,
+.menu-toggle-button-icon::before,
+.menu-toggle-button-icon::after {
+  background-color: #bcbbbb;
+}
+
+/*  components/pager.css  */
+
+.pager-first a:before,
+.pager-first a:after,
+.pager-previous a:before,
+.pager-next a:before,
+.pager-last a:before,
+.pager-last a:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 0.5em;
+  height: 0.5em;
+  border: 0.125rem solid #ffffff;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+/*  components/progress.css  */
+
+.progress .bar {
+  border: 2px solid #e5e5e6;
+}
+
+/* Progress Bar Animation */
+.progress .filled:after {
+  border-left: 2em solid #3c4350;
+  border-right: 0.75em solid #3c4350;
+}
+
+/*  components/small-text-components.css  */
+
+.icon-external-link {
+  border: 0.0625em solid #0074bd;
+}
+
+.icon-external-link-arrow {
+  border: 0.125em solid #ffffff;
+}
+
+.icon-external-link-arrow:before {
+  border: 0.0625em solid #0074bd;
+}
+
+.links li:before,
+.links li:after {
+  border: 0.0625rem solid #0074bd;
+}
+
+/*  components/tabledrag.css  */
+
+.draggable a.tabledrag-handle {
+  background: #ebeff7;
+}
+
+.draggable.drag td:after {
+  background: #dee2ea;
+}
+
+abbr.tabledrag-changed {
+  background: #fce400;
+}
+
+/*  components/teasers.css  */
+
+.view-mode-teaser + .view-mode-teaser,
+.view-promoted .views-row {
+  border-top: 0.25rem solid #bbbbbb;
+}
+
+/*  components/vertical-tabs.css  */
+
+.vertical-tabs {
+  border: 1px solid #bbbbbb;
+  background: #ffffff;
+}
+@media (min-width: 48em) {
+  .vertical-tabs:before {
+    background: #bbbbbb;
+  }
+}
+.vertical-tabs-list {
+  border-top: 1px solid #bbbbbb;
+}
+
+.vertical-tabs-pane {
+  border-bottom: 1px solid #bbbbbb;
+}
+
+.vertical-tab-item {
+  border: 1px solid #bbbbbb;
+  border-left-width: 0; /* LTR */
+  border-top-width: 0;
+  padding: 0;
+  margin: 0;
+  background: #dee2ea;
+}
+
+.vertical-tab-link strong,
+.vertical-tab-link .fieldset-legend {
+  color: #0074bd;
+}
+
+.vertical-tab-link:focus,
+.vertical-tab-link:active,
+.vertical-tab-link:hover,
+.vertical-tab-link:focus,
+.vertical-tab-link:active,
+.vertical-tab-link:hover {
+  background: #d5d5d5;
+}
+.vertical-tab-link .summary {
+  color: #666666;
+}
+.vertical-tab-selected.vertical-tab-item {
+  background-color: #ffffff;
+}
+
+.vertical-tab-selected .vertical-tab-link {
+  background: #ffffff;
+}
+
+.vertical-tabs-pane > .vertical-tab-link {
+  background: #dee2ea;
+}
+.vertical-tabs-pane.vertical-tab-selected > .vertical-tab-link {
+  border-bottom: 1px solid #dee2ea;
+}
+
+/*  END  */
