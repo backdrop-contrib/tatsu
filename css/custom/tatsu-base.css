@@ -1,7 +1,3 @@
-body a {
-	color: #0073bd;
-}
-
 .row {
 	margin-right: 0;
 	margin-left: 0;
@@ -16,6 +12,7 @@ body a {
 	padding-left: 0;
 }
 
+.l-page-title,
 .block:first-of-type {
 	padding-top: 50px;
 }
