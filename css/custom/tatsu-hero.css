@@ -8,6 +8,10 @@
     margin-bottom: 0;
 }
 
+.block-hero {
+    margin: 0;
+}
+
 .block-hero-image {
     position: relative;
 }
