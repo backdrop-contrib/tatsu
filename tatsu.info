@@ -20,6 +20,7 @@ stylesheets[all][] = css/custom/tatsu-hero.css
 stylesheets[all][] = css/custom/tatsu-base.css
 stylesheets[all][] = css/custom/tatsu-views.css
 stylesheets[all][] = css/custom/tatsu-recipes.css
+stylesheets[all][] = css/custom/tatsu-typography.css
 
 stylesheets[print][] = css/print.css
 
