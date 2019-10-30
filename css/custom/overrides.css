@@ -1,3 +1,8 @@
+/* Adding this back, because Basis excludes system.theme.css */
+label {
+	display: block;
+}
+
 .l-top .block-hero {
     margin-top: 0;
 }
