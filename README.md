@@ -54,34 +54,12 @@ https://github.com/backdrop-contrib/tatsu/issues
 * Small changes to hero blocks to make them fit gether nicely.
 * Removed the background color from behind the site name.
 * Adding some useful css classes that can be added to blocks through UI
-
-### Special CSS Classes 
-
-We included these classes early on as a short cut to acheive results 
-that can now be better acheived through use of flexible layout templates 
-and the recently released [Configurable Block Style](https://backdropcms.org/project/configurable_block_style) module. 
-
-- hero-large         {height: 600px;}
-- hero-medium        {height: 400px;}
-- hero-small         {height: 200px;}
-- hero-extra-small   {height: 100px;}
-- content-narrow     {padding-left: 30%; padding-right: 30%;}
-- content-medium     {padding-left: 20%; padding-right: 20%;}
-- content-wide       {padding-left: 10%;padding-right: 10%;}
-- content-center     {text-align: center;}
-
-(We are open to better naming conventions or recommendations for libraries to use.)
-
-### Recommended Layouts
-
-- Eary version of this theme included a custom layout template. We have removed that 
-  from recent versions and recommend using flexible layout templates introduced to
-  Backdrop 
   
 ## Configuration Recipes
 
-We are also creating a library of configuration recipes that should work well with this 
-theme. https://github.com/backdrop-contrib/config_recipes
+We are also creating a library of configuration recipes that 
+should work well with this theme. 
+https://github.com/backdrop-contrib/config_recipes
 
 ## MAINTAINERS
 
