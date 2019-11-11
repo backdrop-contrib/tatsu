@@ -15,10 +15,6 @@ stylesheets[all][] = css/skin.css
 ; Add your custom CSS files
 ; stylesheets[all][] = css/custom/custom.css
 
-; Include a style sheet in the rich-text editor.
-ckeditor_stylesheets[] = css/base.css
-ckeditor_stylesheets[] = css/component/caption.css
-
 ; Include your own custom Javascript in this file. Uncomment the file
 ; scripts[] = js/STARTERKIT.js
 
