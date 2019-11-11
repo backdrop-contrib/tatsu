@@ -74,6 +74,10 @@ https://github.com/backdrop-contrib/config_recipes
   
 - Work on Tatsu is support by Triplo LLC (https://www.triplo.co)
 
+- Thanks to everyone that has worked on the Zen Theme for Drupal. 
+  We have been inspired by your work and borrowed as heavily as 
+  possible from your ideas and documentation.
+
 ## LICENSE
 
 This project is GPL v2 software. See the LICENSE.txt file in this directory for
