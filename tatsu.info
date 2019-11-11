@@ -5,7 +5,12 @@ backdrop = 1.x
 base theme = basis
 screenshot = screenshot.png
 
+; Add theme Bootstrap CSS files
+stylesheets[all][] = css/bootstrap/bootstrap.min.css
+
 ; Add theme CSS files
+stylesheets[all][] = css/color.css
+stylesheets[all][] = css/skin.css
 stylesheets[all][] = css/basis-component-colors.css
 stylesheets[all][] = css/custom/tatsu-header.css
 stylesheets[all][] = css/custom/tatsu-footer.css
@@ -14,6 +19,10 @@ stylesheets[all][] = css/custom/tatsu-base.css
 stylesheets[all][] = css/custom/tatsu-views.css
 stylesheets[all][] = css/custom/tatsu-recipes.css
 stylesheets[all][] = css/custom/tatsu-typography.css
+
+
+; Included Javascript. You can add additional Javascrip files here:
+scripts[] = js/script.js
 
 ; Configuration specifically for Utility CSS module. Classes added to this list
 ; will be available as autocomplete in the block UI where users are allowed to add classes.
