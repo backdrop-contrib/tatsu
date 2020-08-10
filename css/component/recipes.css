@@ -38,7 +38,7 @@
     font-size: 32px;
     margin: 0 0 10px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 .tatsu-grid .view-header p {
@@ -127,6 +127,57 @@
 
 nav.tabs:before {
     background-color: #d1cccc;
+}
+
+
+/* View of blog posts on front page */
+
+
+.layout-front .view-id-promoted .view-content {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 1.3%;
+}
+
+.layout-front .view-promoted .views-row {
+    border: none;
+    padding:10px;
+}
+
+
+@media (max-width: 900px) {
+    .layout-front .view-id-promoted .view-content {
+        grid-template-columns: 48% 48%;
+        grid-gap: 4%;
+    }
+
+    .layout-front .view-promoted .views-row {
+        border: none;
+        padding:10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .layout-front .view-id-promoted .view-content {
+        grid-template-columns: 100%;
+        grid-gap: 0%;
+    }
+
+    .layout-front .view-promoted .views-row {
+        margin: 0;
+        border-bottom: 2px solid grey;
+        margin-bottom: 20px;
+    }
+
+    .layout-front .view-promoted .views-row:last-of-type {
+        margin: 0;
+        border-bottom: none;
+        margin-bottom: 20px;
+    }
+
+    .layout-front .view-promoted .views-row .view-mode-teaser {
+        margin: 0;
+    }
 }
 
 

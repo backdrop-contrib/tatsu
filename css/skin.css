@@ -159,7 +159,11 @@ fieldset .fieldset-legend {
 
 .l-header-inner {
   color: #fffffe;
-  padding: 0;
+}
+.header-menu a:hover,
+.header-menu a:active {
+  background: rgba(221,221,221,0.8);
+  text-decoration: none;
 }
 
 @media (min-width: 34em) {
@@ -175,10 +179,6 @@ fieldset .fieldset-legend {
   text-decoration: none;
 }
 
-.header-menu a:hover,
-.l-header a:active {
-  background: #114a75;
-}
 
 .block-system-header {
   /* Helps center .header-identity-wrapper on smaller screens */
@@ -305,6 +305,10 @@ fieldset .fieldset-legend {
 @media (min-width: 62em) {
   .l-header .menu > li {
     font-size: 1.375em;
+  }
+  .header-menu a {
+    padding: 2.43rem 1.5rem;
+    line-height: 1.25rem;
   }
 }
 
@@ -831,6 +835,21 @@ ul.action-links a {
  */
 .block-hero {
   font-size: 1em;
+}
+
+/*custom FAQ page thin line border*/
+.panel-heading{
+  border-bottom: 1px solid gainsboro;
+}
+.panel-title a{
+  padding: 10px 0;
+}
+
+.field-name-body{
+  padding: 15px 0px;
+}
+.field-label{
+  padding: 15px 0px 0px;
 }
 
 @media (min-width: 25em) {
