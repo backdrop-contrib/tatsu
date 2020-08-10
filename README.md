@@ -8,7 +8,8 @@ We think that there is demand for this kind of theme in the contrib space
 and welcome both feature and design suggestions. Let's make this a community
 project. 
 
-Tatsu currently includes Bootstrap css and js files. 
+Tatsu currently includes Bootstrap css and js files. Version 1.x-2.x also includes
+a UI for supplemental CSS changes.
 
 NOTE: We just created a 1.x-2.x branch for new development. If 1.x-1.x is helpful
 as is, we'll try to keep it stabile - although, it is still pretty rough.
