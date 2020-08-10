@@ -20,6 +20,10 @@ ul.primary li.active a,
   will-change: background-color, color;
 }
 
+ul li a{
+  text-decoration: none;
+}
+
 ul.secondary li a {
   border: 2px solid #e3e2e2;
   transition:
@@ -51,11 +55,11 @@ ul.secondary li a {
   color: #ff0000;
 }
 
-.form-item .description,
+/*.form-item .description,
 .password-strength,
 .password-match {
   border-left: 0.25em solid #bbbbbb;
-}
+}*/
 
 .field-suffix .machine-name-value {
   border: 0.0625rem solid #dee2ea;
@@ -99,11 +103,9 @@ ul.action-links a:after {
 }
 
 /*  components/breadcrumbs.css  */
-
-.breadcrumb li:after {
-  border: 0.0625rem solid #20252e;
+.breadcrumb li:first-child {
+  padding-left: 0;
 }
-
 /*  components/caption.css  */
 
 .caption > figcaption {
@@ -164,7 +166,7 @@ ul.action-links a:after {
 /*  components/hero.css  */
 
 .block-hero-no-image {
-  background: #0074bd url(../../images/texture.png) repeat center center;
+  background: #0074bd url(../images/texture.png) repeat center center;
   background-blend-mode: luminosity;
 }
 

@@ -1,14 +1,6 @@
 <?php
-// For documentation on how the color module works
-// in Backdrop CMS:
-// https://www.triplo.co/blog/color-module-backdrop-cms
-
 $info = array(
   // Available colors and color labels used in theme.
-  // You can edit these fields and add new options.
-  // Be sure to keep all your predefined color schemes
-  // in sync with these fields.
-
   'fields' => array(
     'header' => t('Header background'),
     'slogan' => t('Slogan background'),
@@ -31,10 +23,6 @@ $info = array(
     'footerborder' => t('Footer Border'),
   ),
   // Pre-defined color schemes.
-  // Do not use the exact same color in more than one field.
-  // If necessary, you can use colors that are very visually
-  // very similiar but have different hexidecimal notations.
-
   'schemes' => array(
     'default' => array(
       'title' => t('Basis (default)'),
@@ -158,22 +146,13 @@ $info = array(
     ),
   ),
 
-  'blend_target' => '#ffffff',
+
 
   // CSS files (excluding @import) to rewrite with new color scheme.
-  // Any files listed here will be recreated every time you save the
-  // theme settings. Versions of these files will be copied into the
-  // files directory and will override the original version here
-  // in the theme.
-
-  // You can spread you color rules across as many css files as you like
-  // but the color module will only work with css files listed here.
-
   'css' => array(
-    'css/colors.css',
+    'css/basis-component-colors.css',
+    'css/base.css',
+    'css/layout.css',
     'css/skin.css',
-    // Examples:
-    // css/header.css,
-    // css/views.css,
   ),
 );

@@ -1,0 +1,314 @@
+/**
+ * @file
+ * Header region styling.
+ */
+@media (min-width: 34em) {
+  .l-header-inner {
+    min-height: 3.125rem;
+  }
+}
+
+.l-header a {
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+}
+
+.header-identity-wrapper:after {
+  /* Clearfix */
+  content: '';
+  display: table;
+  clear: both;
+}
+.header-identity-wrapper strong {
+  font-weight: inherit;
+  margin: 33px 0;
+}
+
+@media (min-width: 48em) {
+  .header-identity-wrapper {
+    display: block;
+    float: left;
+  }
+
+  [dir="rtl"] .header-identity-wrapper {
+    float: right;
+  }
+}
+
+.header-site-name-wrapper {
+  margin: 0;
+  padding: 0;
+  overflow-wrap: break-word;
+}
+
+@media (min-width: 34em) {
+  .header-site-name-wrapper {
+    float: left;
+  }
+
+  [dir="rtl"] .header-site-name-wrapper {
+    float: right;
+  }
+}
+
+.header-logo-wrapper {
+  display: block;
+  float: left;
+}
+
+[dir="rtl"] .header-logo-wrapper {
+  float: right;
+}
+
+/* Makes sure images that are tall logos don't pop out of container */
+.header-logo-tall img {
+  width: auto;
+  height: 100%;
+}
+
+.header-site-name-link {
+  display: block;
+  margin: 0;
+}
+
+.header-site-slogan {
+  margin: 0;
+}
+
+.l-header .block-system-header .block-content:after {
+  /* Clearfix header block */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/**
+ * Menus in header area
+ */
+.header-menu {
+  clear: both;
+}
+
+.header-menu:after {
+  /* Clearfix header menu */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header-menu > .links {
+  /* Center menu at mobile */
+  display: inline-block;
+}
+
+@media (min-width: 48em) {
+  .header-menu {
+    float: right;
+    clear: none;
+  }
+
+  [dir="rtl"] .header-menu {
+    float: left;
+    clear: none;
+  }
+}
+
+@media (min-width: 34em) {
+  .l-header .block-system-main-menu {
+    clear: both;
+  }
+}
+
+.l-header .menu,
+.l-header .menu li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.l-header .menu:after {
+  /* Clearfix menus */
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.l-header .menu > li,
+.header-menu li {
+  float: left;
+}
+
+[dir="rtl"] .l-header .menu > li,
+[dir="rtl"] .header-menu li {
+  float: right;
+}
+
+.l-header .menu a,
+.header-menu a {
+  display: block;
+  padding: 0 1.25rem;
+}
+.l-header .menu-toggle-button {
+  margin-left: .9375rem;
+  padding: .5rem 0;
+}
+.l-header .menu-toggle-button-text {
+  color: #bcbbbb;
+}
+
+@media (min-width: 34em) {
+  /* Specific selector to avoid contextual links */
+  .l-header .menu a,
+  .header-menu a {
+    padding: 1rem 1.25rem;
+  }
+}
+
+@media (min-width: 48em) {
+  .header-menu a {
+    /* Attempt at lining up baseline of site name and header menu */
+    padding-top: 2.4rem;
+    padding-bottom: 1.0625rem;
+    line-height: 1.25rem;
+  }
+}
+
+@media (min-width: 62em) {
+  .header-menu a {
+    /* Attempt at lining up baseline of site name and header menu */
+    height: 100%;
+    line-height: 1.25rem;
+  }
+}
+
+.header-menu .links,
+.header-menu li {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.header-menu .links li:before,
+.header-menu .links li:after {
+  /* Hides arrows intented for action links in body */
+  display: none;
+}
+
+/* Everything after here added by Tatsu - TODO: needs integration */
+
+.block-system-header {
+  min-height: 75px;
+}
+
+.block-system-header .block-content {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: auto;
+  align-items: center;
+}
+
+.header-logo-wrapper img,
+.header-logo-wrapper {
+  max-width: none;
+  width: auto;
+  max-height: 70px;
+}
+
+.block-system-header .navbar {
+  margin-bottom: 0px;
+  height: 100%;
+  padding: 0;
+}
+
+.header-site-name-wrapper {
+  align-self: center;
+  min-height: 75px;
+  display: grid;
+}
+
+.header-logo-wrapper {
+  margin: 15px 0;
+}
+.block-content .header-identity-wrapper .header-site-name-wrapper a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+.header-identity-wrapper strong{
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+}
+
+.block-system-header .block-content .header-menu {
+  justify-self: end;
+}
+
+.header-menu {
+  text-align: right;
+}
+
+.header-site-name-wrapper img {
+  margin-right: 20px;
+}
+
+.header-site-name-link {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  align-items: center;
+  font-size: 2.5rem;
+  line-height: 1.75rem;
+  text-align: left;
+  align-self: center;
+}
+
+@media (max-width: 990px) {
+  .header-site-name-link,
+  .header-identity-wrapper,
+  .block-system-header .block-content {
+    display: block;
+  }
+
+  .block-system-header .block-content {
+    position: relative;
+  }
+  .header-identity-wrapper {
+    width: 100%;
+  }
+  .navbar {
+    display: block;
+    width: 100%;
+    position: initial;
+  }
+  .navbar button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+  .header-site-name-wrapper img {
+    display: block;
+    float: left;
+  }
+  .header-logo-wrapper {
+    display: block;
+    float: left;
+  }
+  .navbar .navbar-toggler {
+    background: white;
+    padding: 0px;
+    margin-top: 22px;
+  }
+  .hero-layouts .container.container-fluid.row {
+    display: block;
+  }
+  .navbar-collapse ul,
+  .navbar-collapse ul li{
+    width: 100%;
+    text-align: left;
+  }
+}
+@media (max-width: 550px) {
+  .header-identity-wrapper strong{
+    font-size: 26px;
+  }
+}
