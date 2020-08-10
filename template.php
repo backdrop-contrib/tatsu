@@ -10,33 +10,33 @@
  * @see page.tpl.php
  */
 function tatsu_preprocess_page(&$variables) {
-	$node = menu_get_object();
+  $node = menu_get_object();
 
-	// Add the OpenSans font from core on every page of the site.
-	backdrop_add_library('system', 'opensans', TRUE);
+  // Add the OpenSans font from core on every page of the site.
+  backdrop_add_library('system', 'opensans', TRUE);
 
-	// To add a class 'page-node-[nid]' to each page.
-	if ($node) {
-		$variables['classes'][] = 'page-node-'.$node->nid;
-	}
+  // To add a class 'page-node-[nid]' to each page.
+  if ($node) {
+    $variables['classes'][] = 'page-node-'.$node->nid;
+  }
 
-	// To add a class 'view-name-[name]' to each page.
-	$view = views_get_page_view();
-	if ($view) {
-		$variables['classes'][] = 'view-name-'.$view->name;
-	}
-	// Attach custom css file if it exists.
-	if (theme_get_setting('use_custom_css')) {
-		global $theme;
-		$rel_path = config_get('system.core', 'file_public_path').'/'.$theme.'_custom.css';
-		if (file_exists($rel_path)) {
-			backdrop_add_css($base_path.$rel_path, array(
-					'every_page' => TRUE,
-					'preprocess' => FALSE,
-					'group'      => CSS_THEME,
-				));
-		}
-	}
+  // To add a class 'view-name-[name]' to each page.
+  $view = views_get_page_view();
+  if ($view) {
+    $variables['classes'][] = 'view-name-'.$view->name;
+  }
+  // Attach custom css file if it exists.
+  if (theme_get_setting('use_custom_css')) {
+    global $theme;
+    $rel_path = config_get('system.core', 'file_public_path').'/'.$theme.'_custom.css';
+    if (file_exists($rel_path)) {
+      backdrop_add_css($base_path.$rel_path, array(
+          'every_page' => TRUE,
+          'preprocess' => FALSE,
+          'group'      => CSS_THEME,
+        ));
+    }
+  }
 }
 
 /**
@@ -45,8 +45,8 @@ function tatsu_preprocess_page(&$variables) {
  * @see maintenance-page.tpl.php
  */
 function tatsu_preprocess_maintenance_page(&$variables) {
-	$css_path = backdrop_get_path('theme', 'tatsu').'/css/component/maintenance.css';
-	backdrop_add_css($css_path);
+  $css_path = backdrop_get_path('theme', 'tatsu').'/css/component/maintenance.css';
+  backdrop_add_css($css_path);
 }
 
 /**
@@ -55,14 +55,14 @@ function tatsu_preprocess_maintenance_page(&$variables) {
  * @see layout.tpl.php
  */
 function tatsu_preprocess_layout(&$variables) {
-	if ($variables['is_front']) {
-		// Add a special front-page class.
-		$variables['classes'][] = 'layout-front';
-		// Add a special front-page template suggestion.
-		$original                              = $variables['theme_hook_original'];
-		$variables['theme_hook_suggestions'][] = $original.'__front';
-		$variables['theme_hook_suggestion']    = $original.'__front';
-	}
+  if ($variables['is_front']) {
+    // Add a special front-page class.
+    $variables['classes'][] = 'layout-front';
+    // Add a special front-page template suggestion.
+    $original                              = $variables['theme_hook_original'];
+    $variables['theme_hook_suggestions'][] = $original.'__front';
+    $variables['theme_hook_suggestion']    = $original.'__front';
+  }
 }
 
 /**
@@ -71,13 +71,13 @@ function tatsu_preprocess_layout(&$variables) {
  * @see node.tpl.php
  */
 function tatsu_preprocess_node(&$variables) {
-	if ($variables['status'] == NODE_NOT_PUBLISHED) {
-		$name                                               = node_type_get_name($variables['type']);
-		$variables['title_suffix']['unpublished_indicator'] = array(
-			'#type'   => 'markup',
-			'#markup' => '<div class="unpublished-indicator">'.t('This @type is unpublished.', array('@type' => $name)).'</div>',
-		);
-	}
+  if ($variables['status'] == NODE_NOT_PUBLISHED) {
+    $name                                               = node_type_get_name($variables['type']);
+    $variables['title_suffix']['unpublished_indicator'] = array(
+      '#type'   => 'markup',
+      '#markup' => '<div class="unpublished-indicator">'.t('This @type is unpublished.', array('@type' => $name)).'</div>',
+    );
+  }
 }
 
 /**
@@ -86,19 +86,19 @@ function tatsu_preprocess_node(&$variables) {
  * @see header.tpl.php
  */
 function tatsu_preprocess_header(&$variables) {
-	$logo            = $variables['logo'];
-	$logo_attributes = $variables['logo_attributes'];
+  $logo            = $variables['logo'];
+  $logo_attributes = $variables['logo_attributes'];
 
-	// Add classes and height/width to logo.
-	if ($logo) {
-		$logo_wrapper_classes   = array();
-		$logo_wrapper_classes[] = 'header-logo-wrapper';
-		if ($logo_attributes['width'] <= $logo_attributes['height']) {
-			$logo_wrapper_classes[] = 'header-logo-tall';
-		}
+  // Add classes and height/width to logo.
+  if ($logo) {
+    $logo_wrapper_classes   = array();
+    $logo_wrapper_classes[] = 'header-logo-wrapper';
+    if ($logo_attributes['width'] <= $logo_attributes['height']) {
+      $logo_wrapper_classes[] = 'header-logo-tall';
+    }
 
-		$variables['logo_wrapper_classes'] = $logo_wrapper_classes;
-	}
+    $variables['logo_wrapper_classes'] = $logo_wrapper_classes;
+  }
 }
 
 /**
@@ -107,15 +107,15 @@ function tatsu_preprocess_header(&$variables) {
  * @see theme_breadcrumb().
  */
 function tatsu_breadcrumb($variables) {
-	$breadcrumb = $variables['breadcrumb'];
-	$output     = '';
-	if (!empty($breadcrumb)) {
-		$output .= '<nav role="navigation" class="breadcrumb">';
-		// Provide a navigational heading to give context for breadcrumb links to
-		// screen-reader users. Make the heading invisible with .element-invisible.
-		$output .= '<h2 class="element-invisible">'.t('You are here').'</h2>';
-		$output .= '<ol><li>'.implode('</li><li>', $breadcrumb).'</li></ol>';
-		$output .= '</nav>';
-	}
-	return $output;
+  $breadcrumb = $variables['breadcrumb'];
+  $output     = '';
+  if (!empty($breadcrumb)) {
+    $output .= '<nav role="navigation" class="breadcrumb">';
+    // Provide a navigational heading to give context for breadcrumb links to
+    // screen-reader users. Make the heading invisible with .element-invisible.
+    $output .= '<h2 class="element-invisible">'.t('You are here').'</h2>';
+    $output .= '<ol><li>'.implode('</li><li>', $breadcrumb).'</li></ol>';
+    $output .= '</nav>';
+  }
+  return $output;
 }
