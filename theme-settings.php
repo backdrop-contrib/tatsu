@@ -88,12 +88,20 @@ function tatsu_form_system_theme_settings_alter(&$form, &$form_state) {
   );
   $form['#validate'][] = '_tatsu_css_class';
   // Custom css in a textarea.
-  $form['use_custom_css'] = array(
+
+  $form['advanced'] = array(
+    '#type' => 'fieldset',
+    '#title' => t('Advanced Settings'),
+    '#collapsible' => TRUE,
+    '#collapsed' => TRUE,
+  );
+
+  $form['advanced']['use_custom_css'] = array(
     '#type' => 'checkbox',
     '#title' => t('Add custom CSS'),
     '#default_value' => theme_get_setting('use_custom_css', $theme_name),
   );
-  $form['custom_css'] = array(
+  $form['advanced']['custom_css'] = array(
     '#type' => 'textarea',
     '#title' => t('Add your custom CSS rules'),
     '#description' => t('Note that you can not preview these rules here.'),
