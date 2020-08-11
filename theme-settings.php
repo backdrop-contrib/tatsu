@@ -74,19 +74,38 @@ if (module_exists('color')) {
 }
 
 function tatsu_form_system_theme_settings_alter(&$form, &$form_state) {
-  $theme_name         = $form['theme']['#value'];
+  $theme_name = $form['theme']['#value'];
+
+  // @see _tatsu_css_class()
+  $form_state['storage']['options'] = $options;
+  $form['settings']['bodyclass'] = array(
+    '#type' => 'value',
+    '#value' => '',
+  );
+  $form['settings']['preview'] = array(
+    '#type' => 'markup',
+    '#markup' => file_get_contents($tatsu_path . '/preview.html'),
+  );
+  $form['#validate'][] = '_tatsu_css_class';
+  // Custom css in a textarea.
+  $form['use_custom_css'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Add custom CSS'),
+    '#default_value' => theme_get_setting('use_custom_css', $theme_name),
+  );
   $form['custom_css'] = array(
-    '#type'                           => 'textarea',
-    '#title'                          => t('Add your custom CSS rules'),
-    '#description'                    => t('Note that you can not preview these rules here.'),
-    '#default_value'                  => theme_get_setting('custom_css', $theme_name),
-    '#rows'                           => 12,
-    '#states'                         => array(
-      'invisible'                      => array(
+    '#type' => 'textarea',
+    '#title' => t('Add your custom CSS rules'),
+    '#description' => t('Note that you can not preview these rules here.'),
+    '#default_value' => theme_get_setting('custom_css', $theme_name),
+    '#rows' => 12,
+    '#states' => array(
+      'invisible' => array(
         ':input[name="use_custom_css"]' => array('checked' => FALSE),
       ),
     ),
   );
+
 }
 
 /**
