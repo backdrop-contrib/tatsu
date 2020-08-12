@@ -10,6 +10,7 @@
  * @see page.tpl.php
  */
 function tatsu_preprocess_page(&$variables) {
+  global $base_path;
   $node = menu_get_object();
 
   // Add the OpenSans font from core on every page of the site.
