@@ -51,8 +51,20 @@ Backdrop.featureDetect.backgroundBlendMode = function() {
 }
 
 $(document).ready(function() {
-  Backdrop.featureDetect.backgroundBlendMode();
-  Backdrop.featureDetect.flexbox();
+    Backdrop.featureDetect.backgroundBlendMode();
+    Backdrop.featureDetect.flexbox();
+
+
+    // Color picker widget.
+    $('#html5colorpicker input').change(function() {
+        var picked = $(this).val();
+        var textAreaTxt = $("#edit-custom-css").val();
+        var cursorPos = $("#edit-custom-css").prop('selectionStart');
+        // Show hex value next to picker.
+        $('#html5colorpicker span').text(picked);
+        // Put into textarea at cursor position.
+        $("#edit-custom-css").val(textAreaTxt.substring(0, cursorPos) + picked + textAreaTxt.substring(cursorPos));
+    });
 });
 
 })(jQuery);

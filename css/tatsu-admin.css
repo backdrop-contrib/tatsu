@@ -1,0 +1,31 @@
+#edit-settings .fieldset-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+#edit-settings .fieldset-wrapper .form-item {
+  min-width: 28%;
+}
+#preview-wrapper {
+  width: 680px;
+  height: 380px;
+  max-width: 100%;
+  overflow-y: hidden;
+  color: #444;
+  background-color: #f7f7f7;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+#preview-wrapper .preview-content-wrapper {
+  margin: 0 70px;
+}
+#preview-wrapper .preview-content-wrapper h2 {
+  display: table;
+  margin: 40px 0 25px;
+  padding: 3px 20px;
+  background-color: #fffd;
+}
+#preview-wrapper .preview-text {
+  background-color: #fff;
+  padding: 25px 20px 40px;
+}
