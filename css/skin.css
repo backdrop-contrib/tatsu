@@ -1226,8 +1226,9 @@ div.error:before {
   /* background-image: linear-gradient(transparent, transparent), url(../../../misc/message-error.svg); */
 }
 
-/* Color classes for UI */
+/* Bootstrap can override elements in admin menu. This should fix that. */
 
-
-
-
+#admin-bar .dropdown li > a, 
+#admin-bar .dropdown li > span {
+  margin-bottom: 0;
+}
