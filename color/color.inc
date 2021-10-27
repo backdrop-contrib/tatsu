@@ -11,6 +11,7 @@ $info = array(
     'bg' => t('Main background'),
     'text' => t('Text color'),
     'link' => t('Link color'),
+    'hover' => t('Link hover color'),
     'borders' => t('Borders'),
     'formfocusborder' => t('Form element borders when selected'),
 
@@ -36,6 +37,7 @@ $info = array(
         'bg' => '#ffffff',
         'text' => '#000001',
         'link' => '#0073bd',
+        'hover' => '#bd0073',
         'borders' => '#bbbbbb',
         'formfocusborder' => '#43afe4',
 
@@ -60,6 +62,7 @@ $info = array(
         'bg' => '#ffffff',
         'text' => '#2a2a2a',
         'link' => '#00809c',
+        'hover' => '#9c0080',
         'borders' => '#24272c',
         'formfocusborder' => '#ffffff',
 
@@ -84,6 +87,7 @@ $info = array(
         'bg' => '#fffdf7',
         'text' => '#301313',
         'link' => '#9d408d',
+        'hover' => '#8d9d40',
         'borders' => '#2c2c28',
         'formfocusborder' => '#edede7',
 
@@ -108,6 +112,7 @@ $info = array(
         'bg' => '#ffffff',
         'text' => '#3b3b3b',
         'link' => '#fa6900',
+        'hover' => '#00fa69',
         'borders' => '#4c5036',
         'formfocusborder' => '#f3f4e9',
 
@@ -132,6 +137,7 @@ $info = array(
         'bg' => '#faf8f8',
         'text' => '#3b3738',
         'link' => '#c63d0f',
+        'hover' => '#0fc63d',
         'borders' => '#dec0b4',
         'formfocusborder' => '#ffffff',
 

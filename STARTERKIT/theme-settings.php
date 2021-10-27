@@ -33,6 +33,7 @@ if (module_exists('color')) {
     'bg',
     'text',
     'link',
+    'hover',
     'borders',
     'formfocusborder',
   );
