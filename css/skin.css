@@ -109,6 +109,10 @@ fieldset .fieldset-legend {
   text-transform: uppercase;
 }
 
+.field-label-inline .field-label {
+  margin-right:  3px;
+}
+
 /**
  * Small Text Components
  */
