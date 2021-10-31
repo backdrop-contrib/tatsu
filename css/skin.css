@@ -13,7 +13,7 @@
  * Component styles in this file are simple overrides for easy updating.
  */
 body {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: Arial, 'Open Sans', Helvetica, sans-serif;
   /**
    * Default font size for site should be set on body element in rem units.
    * This is better for some accessibility technologies. Although it's not true
@@ -847,13 +847,6 @@ ul.action-links a {
 }
 .panel-title a{
   padding: 10px 0;
-}
-
-.field-name-body{
-  padding: 15px 0px;
-}
-.field-label{
-  padding: 15px 0px 0px;
 }
 
 @media (min-width: 25em) {
