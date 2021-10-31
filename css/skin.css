@@ -28,6 +28,10 @@ a {
   color: #0073bd;
 }
 
+a:hover {
+  color: #bd0073;
+}
+
 a:focus,
 a:hover {
   text-decoration: none;
