@@ -8,6 +8,7 @@ screenshot = screenshot.png
 stylesheets[all][] = css/bootstrap/bootstrap.min.css
 
 ; Add theme CSS files
+stylesheets[all][] = css/basis-component-colors.css
 stylesheets[all][] = css/base.css
 stylesheets[all][] = css/layout.css
 stylesheets[all][] = css/skin.css
@@ -30,7 +31,6 @@ stylesheets[all][] = css/component/teasers.css
 stylesheets[all][] = css/component/comment.css
 stylesheets[all][] = css/component/caption.css
 stylesheets[all][] = css/component/views.css
-stylesheets[all][] = css/basis-component-colors.css
 
 stylesheets[print][] = css/print.css
 
