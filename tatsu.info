@@ -29,7 +29,8 @@ stylesheets[all][] = css/component/hero.css
 stylesheets[all][] = css/component/teasers.css
 stylesheets[all][] = css/component/comment.css
 stylesheets[all][] = css/component/caption.css
-stylesheets[all][] = css/component/views.css
+stylesheets[all][] = css/component/cards.css
+stylesheets[all][] = css/component/views-tatsu.css
 stylesheets[all][] = css/basis-component-colors.css
 
 stylesheets[print][] = css/print.css

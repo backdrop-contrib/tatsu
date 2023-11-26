@@ -75,7 +75,9 @@ https://github.com/backdrop-contrib/config_recipes
 ## MAINTAINERS
 
 - Tim Erickson (https://github.com/stpaultim).
-- Wilbur Ince (https://github.com/wylbur)
+- Wilbur Ince (https://github.com/Wylbur).
+- Seeking co-maintainers
+
 
 ## CREDITS
 
