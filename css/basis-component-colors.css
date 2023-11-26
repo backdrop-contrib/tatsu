@@ -191,7 +191,7 @@ ul.action-links a:after {
 }
 
 .menu-dropdown a span.sub-arrow {
-  border: 1px solid #bbbbbb;
+  border-color: #bbbbbb transparent transparent transparent;
 }
 
 /*  components/menu-toggle.css  */
