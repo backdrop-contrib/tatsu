@@ -3,7 +3,7 @@
 # Tatsu
 A flexible theme derived from the BASIS theme that allows a site editor or manager to make maximum color/visual customizations through the user interface. 
 
-The latest release is 1.x-2.x, which completely removes the dependency on the BASIS theme.  
+The latest release is 1.x-2.x, which completely removes the dependency on the BASIS theme. This is a major release and is not backwards compatible. Please, exercise caution if upgrading from the 1.x-1.x branch.
 
 We will continue to support Version 1.x-1.x was a sub-theme of Basis, but no new features will be added to that version.  
 
