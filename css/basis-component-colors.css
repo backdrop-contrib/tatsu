@@ -194,6 +194,13 @@ ul.action-links a:after {
   border: 1px solid #bbbbbb;
 }
 
+@media (min-width: 48em) {
+  .js .menu-dropdown li,
+  .js .menu-dropdown a.has-submenu.highlighted {
+    border-bottom: none;
+  }
+}
+
 /*  components/menu-toggle.css  */
 
 .menu-toggle-button-icon,
