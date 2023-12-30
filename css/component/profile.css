@@ -1,0 +1,13 @@
+/**
+ *
+ * Profile Page
+ *
+ */
+
+.profile a:not(:last-of-type)::after {
+  content: " | ";
+}
+
+.profile .field a:not(:last-of-type)::after {
+  content: "";
+}
